@@ -22,12 +22,12 @@
     width: 40vw;
 }
 .logo{
-    background: url('./imgs/undraw_getting_coffee_re_f2do.svg');
-    height: 90vh;
+    background: url('../imgs/undraw_barista_at0v.svg');
+    height: 80vh;
     display: flex;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
     gap: 20px;
     justify-content: center;
     
@@ -40,6 +40,14 @@
     text-transform: uppercase;
     color:var(--primary-color);
     font-weight: 700;
+}
+.image-footer{
+    color:#2F2E41;
+    height: 20vh;
+    margin-top: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
 }
 .right-container{
     width: 60vw;
@@ -104,6 +112,35 @@
     width: 40%;
     gap: 10px;
 }
+.text-area{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color:var(--light-grey-color);
+}
+.text-area label{
+    text-transform: uppercase;
+}
+
+.text-area textarea{
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #2F2E41;
+    padding: 20px;
+    border-color: var(--white-grey-color);
+    font-size: 14px;
+    
+    color:var(--white-grey-color);
+    
+}
+.text-area textarea:active{
+    outline: none;
+    border: none;
+}
+.text-area textarea::placeholder{
+    color:var(--light-grey-color)
+}
 .form-item input{
     font-size: 1em;
     background-color: var(--secondary-color);
@@ -153,6 +190,9 @@ button:hover{
     background-color: var(--white-grey-color);
     color: var(--secondary-color);
     cursor: pointer;
+}
+.active{
+    background-color: #00BFA6;
 }
 
 @media only screen and (max-width:640px){

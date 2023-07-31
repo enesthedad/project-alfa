@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allie</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Allie|Join Us</title>
+    <link rel="stylesheet" href="../pages/style.css">
 </head>
 <body>
     <div class="container">
         <div class="left">
             <div class="logo">
-                <img class='allie-logo'src="./imgs/undraw_taken_re_yn20.svg" alt="logo">
+                <img class='allie-logo'src="../imgs/undraw_taken_re_yn20.svg" alt="logo">
                 <p class="logo-name"> Allie</p>
             </div>
             <div class="image-footer">
-
+                <p>Join our family and start to a great future with Allie!</p>
             </div>
         </div>
         <div class="right-container">
             <div class="links">
-                <a href="#">Home</a><a href="./pages/join-us.html" target="_blank">Join Us</a><a href="#">Social Media</a>
+                <a href="../index.html" target="_blank">Home</a><a href="./pages/join-us.html" target="_blank" class="active">Join Us</a><a href="#">Social Media</a>
             </div>
             <div class="right">
                 
@@ -40,20 +40,16 @@
                             <input type="email" id="email">
                         </div>
                         <div class="form-item">
-                            <label for="age">Age</label>
-                            <input type="number" id="last-name">
+                            <label for="birth-date">Birth Date</label>
+                            <input type="date" id="birth-date">
                         </div>
-                        <div class="form-item">
-                            <label for="password">Password</label>
-                            <input type="password" id="password">
+                        <div class="text-area">
+                            <label for="about">About you!</label>
+                            <textarea name="about" placeholder="Tell us about yourself..." id="about" cols="90" rows="10"></textarea>
                         </div>
-                        <div class="form-item">
-                            <label for="password-confirm">Confirm Password</label>
-                            <input type="text" id="password-confirm">
-                        </div>
+                        
                         <div class="log-in">
-                            <button type="submit">Create Account</button>
-                            <p>Already have an account? <a href="#">Log In</a></p>
+                            <button type="submit">Join Us!</button>
                         </div>
                     </div>
                 </form>
